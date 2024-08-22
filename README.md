@@ -31,6 +31,10 @@ We have made modifications to the original code to fit our project’s specific 
    ```
 3. run jupyter notebook after loading your data path
    - grad-cam-attack folder: adversarial attacks on 2D image (depth and normal)
+     - heatmap_attack.ipy: implement adversarial attacks on 2D image.
    - pointcloud_attack folder: adversarial attacks on point cloud
-   - util folder: depth and normal map calculations
+     - attack_dataset.ipy: implement adversarial attacks on point cloud.
+     - recognition.ipy: recongnition 2D images.
+   - util folder: depth and normal map calculations (modified from Led3D)
+     - dataset_convert.m : used to convert dataset to depth and normal map.
 
