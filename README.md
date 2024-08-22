@@ -1,5 +1,17 @@
 # Adversarial-Attacks-on-3D-Facial-Recognition
-Adversarial Attacks on 3D Facial Recognition
 
-## 專案描述
-這個專案旨在研究並實現針對3D人臉識別系統的對抗性攻擊，主要使用點雲圖像進行測試和實驗。
+## Project Description
+This project aims to research and implement adversarial attacks on 3D facial recognition systems,
+primarily using depth and normal images for testing and experimentation.
+
+## Features
+- Computes depth maps and normal maps from facial point clouds using the FRGC dataset.
+- Enhances image quality by conducting facial attacks focused on regions of interest.
+- Explores direct point cloud attacks utilizing 2D information.
+
+
+## Installation and Usage
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
