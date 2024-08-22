@@ -18,8 +18,19 @@ This project references code from the following GitHub repositories:
 We have made modifications to the original code to fit our project’s specific needs while adhering to the respective licenses.
 
 ## Installation and Usage
--All data path you need to rewrite by yourself
+- All data path you need to rewrite by yourself
+  
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+   ```
+2. pip install requirement
+   ```bash
+   cd 專案名
+   pip install -r requirements.txt
+   ```
+3. run jupyter notebook after loading your data path
+   - grad-cam-attack folder: adversarial attacks on 2D image (depth and normal)
+   - pointcloud_attack folder: adversarial attacks on point cloud
+   - util folder: depth and normal map calculations
 
